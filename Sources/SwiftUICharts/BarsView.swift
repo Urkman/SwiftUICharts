@@ -38,7 +38,7 @@ struct BarsView: View {
     }
 
     private func barView(for point: DataPoint, in geometry: GeometryProxy) -> some View {
-        Capsule(style: .continuous)
+        Rectangle()
             .fill(point.legend.color)
 			.cornerRadius(barsCornerRadius, corners: barsCorners)
             .accessibilityLabel(Text(point.label))
