@@ -37,7 +37,11 @@ public struct BarChartStyle: ChartStyle {
         - barMinHeight: The minimal height for the bar that presents the biggest value. Default is 100.
         - axisPosition: AxisPosition the position on the axis
         - axisPadding: CGFloat padding for axis line. Default is 0.
+        - showGrid: Bool show the grid
+        - gridColor: Clor the color of the grid
         - showLabels: Bool value that controls whenever to show labels.
+        - labelFont: Font The Font of the labels
+        - labelColor: Color The Color of the labels
         - labelCount: The count of labels that should be shown below the chart. Default is all.
         - showLegends: Bool value that controls whenever to show legends.
         - barsCornerRadius: CGFloat value that controls corner radius of the bars
