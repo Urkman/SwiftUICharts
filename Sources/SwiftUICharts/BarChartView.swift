@@ -96,7 +96,7 @@ public struct BarChartView: View {
     }
 
     private var grid: some View {
-        ChartGrid(dataPoints: dataPoints)
+        ChartGrid()
             .stroke(
                 style.showGrid ? style.gridColor : .clear,
                 style: StrokeStyle(
